@@ -1,34 +1,71 @@
-# 📄 Changelog
+# EPSILON v1.1 – Release Notes
 
-All notable changes to EPSILON will be documented in this file.
+## Overview
 
----
+EPSILON v1.1 represents the first stable release of the toolkit, consolidating multiple development phases (ALPHA, DELTA, and GAMMA) into a unified, menu-driven PowerShell solution for Exchange Online and Compliance management.
 
-## 🚀 v1.1
-- Added self-relaunch with ExecutionPolicy Bypass
-
----
-
-## v1.0
-- Added Shared Mailbox Management submenu (Exchange → Option 5)
+This release establishes the core structure and functionality that future versions build upon.
 
 ---
 
-## v0.9
-- Added Help / About screen from startup menu
+## Development Evolution
+
+EPSILON v1.0 is the result of several internal iterations:
+
+- ALPHA
+  - Initial concept and basic Exchange Online interaction
+
+- DELTA (v0.01 → v0.8)
+  - Introduction of core menu system
+  - Archiving and mailbox management features
+  - Compliance search and purge functionality
+  - Iterative improvements and feature expansion
+
+- GAMMA (v1.1 → v1.3)
+  - Stabilization of core features
+  - Refinement of menu structure and usability
+  - Preparation for production use
 
 ---
 
-## v0.8
-- Improved Configure-AutoArchiving with retry/backoff logic
-- Added Delete-InboxRule-by-Identity feature (Mailbox Menu option 8)
+## Core Features
+
+### Exchange Online
+
+- Mailbox management (create, remove, view details)
+- Archive mailbox enablement
+- Auto-expanding archive support
+- Managed Folder Assistant execution
+- Inbox rule visibility and management
+- Mail user and contact management
 
 ---
 
-## v0.7
-- Initial core functionality:
-  - Menu system
-  - Archiving features
-  - Mail user contacts
-  - Global Admin functions
-  - Compliance purge capability
+### Compliance (Purview)
+
+- Compliance search creation
+- Search execution and monitoring
+- Email purge functionality
+- Subject-based search filtering
+
+---
+
+## Improvements
+
+- Consolidated multiple scripts into a single toolkit
+- Standardized menu-driven interface
+- Improved usability for day-to-day administration
+- Streamlined common administrative workflows
+
+---
+
+## Known Limitations
+
+- Inbox rule creation timestamps are not available via standard cmdlets
+- Some Exchange operations (e.g., Managed Folder Assistant) may return intermittent service-side errors
+
+---
+
+## Notes
+
+This release serves as the baseline for EPSILON moving forward, providing a stable and consistent foundation for continued development and feature enhancements.
