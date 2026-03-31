@@ -10,7 +10,7 @@ This release establishes the core structure and functionality that future versio
 
 ## Development Evolution
 
-EPSILON v1.0 is the result of several internal iterations:
+EPSILON v1.1 is the result of several internal iterations:
 
 - ALPHA
   - Initial concept and basic Exchange Online interaction
@@ -21,7 +21,7 @@ EPSILON v1.0 is the result of several internal iterations:
   - Compliance search and purge functionality
   - Iterative improvements and feature expansion
 
-- GAMMA (v1.1 → v1.3)
+- GAMMA (v0.9 → v1.0)
   - Stabilization of core features
   - Refinement of menu structure and usability
   - Preparation for production use
