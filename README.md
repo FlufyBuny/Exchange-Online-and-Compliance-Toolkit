@@ -11,17 +11,17 @@ Project Structure
 
 This repository includes three deployment formats:
 
-Windows PowerShell Script
-EOM v1.1.ps1
+Windows PowerShell Script<br>
+EOM - v1.1.ps1<br>
 Full interactive menu for Exchange Online & Compliance tasks
 
-macOS PowerShell Script
-EOM v1.1 - MAC.ps1
+macOS PowerShell Script<br>
+EOM - v1.1 - MAC.ps1<br>
 Compatible with PowerShell Core (pwsh) on macOS
 
-Executable Version
-EOM v1.1.exe
-Packaged version of the PowerShell script for simplified execution
+Executable Version<br>
+EOM - v1.1.exe<br>
+Packaged version of the PowerShell script for simplified execution<br>
 Note: This is a wrapped .ps1, not a compiled binary
 
 Features
