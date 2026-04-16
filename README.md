@@ -1,3 +1,5 @@
+<img width="550" height="453" alt="epsilon_dark" src="https://github.com/user-attachments/assets/3066fbff-b612-43fd-8d53-392bf3210ca0" />
+
 ## Changelog
 See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
